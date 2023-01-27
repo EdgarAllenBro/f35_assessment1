@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'git is a version control system for development'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = 'a Site to remotely host our various versions of our code that we manage with Git'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,7 +28,7 @@
 */
 
 //CODE HERE
-
+const gitInitDefinition = 'a command that initializes a new git repo on our local machine'
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +36,7 @@
 */
 
 //CODE HERE
-
+const gitCloneDefinition = 'a command used to clone a remote repo to a local machine'
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +44,7 @@
 */
 
 //CODE HERE
+const gitStatusDefinition = 'a command that will show the current status of our git repo, whether files are ready for commit ect.'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +55,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+//CODE HERE 
+const gitAddDefinition = 'adds files to be tracked and commited'
+const gitAddCode = 'git add .'
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +69,9 @@
 */
 
 //CODE HERE
+const gitCommitDefinition = 'creates a "snapshot" or new version of our files'
 
+const gitCommitCode = 'git commit -m "initial commit"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +80,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = 'taking out most recent commit and pushing any changes to our remote repo'
